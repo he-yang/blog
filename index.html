@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>WTSolutions Blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="WTSolutions provides solutions for water and wastewater technologies">
+<meta property="og:type" content="website">
+<meta property="og:title" content="WTSolutions Blog">
+<meta property="og:url" content="http://blog.wtsolutions.cn/index.html">
+<meta property="og:site_name" content="WTSolutions Blog">
+<meta property="og:description" content="WTSolutions provides solutions for water and wastewater technologies">
+<meta property="og:locale" content="Zh-CN">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="WTSolutions Blog">
+<meta name="twitter:description" content="WTSolutions provides solutions for water and wastewater technologies">
+  
+    <link rel="alternate" href="/atom.xml" title="WTSolutions Blog" type="application/atom+xml">
+  
+  
+  
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="/css/styles.css">
+  
+
+</head>
+
+<body>
+  <nav class="navbar navbar-inverse">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu-navbar" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="main-menu-navbar">
+      <ul class="nav navbar-nav">
+        
+          <li><a class="active"
+                 href="/index.html">Home</a></li>
+        
+          <li><a class=""
+                 href="/archives/">Archives</a></li>
+        
+      </ul>
+
+      <!--
+      <ul class="nav navbar-nav navbar-right">
+        
+          <li><a href="/atom.xml" title="RSS Feed"><i class="fa fa-rss"></i></a></li>
+        
+      </ul>
+      -->
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+  <div class="container">
+    <div class="blog-header">
+  <h1 class="blog-title">WTSolutions Blog</h1>
+  
+    <p class="lead blog-description">WTSolutions provides solutions for water and wastewater technologies</p>
+  
+</div>
+
+    <div class="row">
+        <div class="col-sm-8 blog-main">
+          
+  
+    <article id="post-json-to-excel-docs" class="article article-type-post" itemscope itemprop="blogPost">
+
+  <header class="article-header">
+    
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/json-to-excel-docs/">JSON to Excel Documentation</a>
+    </h1>
+  
+
+
+  </header>
+
+  <div class="article-meta">
+    <div class="article-datetime">
+  <a href="/json-to-excel-docs/" class="article-date"><time datetime="2017-10-20T11:56:26.000Z" itemprop="datePublished">2017-10-20</time></a>
+</div>
+
+    
+    
+
+  </div>
+  <div class="article-inner">
+
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><p>JSON to Excel is a Microsoft Excel add-in which can convert JSON to Excel.</p>
+<h2 id="Requirements"><a href="#Requirements" class="headerlink" title="Requirements"></a>Requirements</h2><p>This add-in works in: Excel 2013 Service Pack 1 or later, Excel 2016 for Mac, Excel 2016 or later, Excel Online.</p>
+<h2 id="Quick-Started"><a href="#Quick-Started" class="headerlink" title="Quick Started"></a>Quick Started</h2><h3 id="Get-add-in"><a href="#Get-add-in" class="headerlink" title="Get add-in"></a>Get add-in</h3><ul>
+<li>Get it from Office Store link <a href="https://store.office.com/en-001/app.aspx?assetid=WA104381080" target="_blank" rel="external">https://store.office.com/en-001/app.aspx?assetid=WA104381080</a></li>
+<li>Click on the above link and, you will see the webpage of JSON to Excel on Office Store.</li>
+<li>Click on the “Free Trial” button.</li>
+<li>The next page you will see will show that you can open the add-in in Excel/Excel Online.</li>
+<li>Now go to Excel 2013/2016 or Excel Online.</li>
+<li>JSON-to-Excel Tab &gt; Launch JSON to Excel</li>
+<li>Now you are ready to use this add-in.</li>
+</ul>
+<h3 id="Use-add-in"><a href="#Use-add-in" class="headerlink" title="Use add-in"></a>Use add-in</h3><ul>
+<li>Prepare your JSON data</li>
+<li>Fill the text area of JSON-to-Excel with your JSON data</li>
+<li>Select conversion mode</li>
+</ul>
+<h4 id="Simple-Mode"><a href="#Simple-Mode" class="headerlink" title="Simple Mode"></a>Simple Mode</h4><p>Note, for the simple mode, only regular JSON data can be handled. Only the keys in the first element of JSON will be interpreted as header.<br>Apart from the above box, nothing should be worried.</p>
+<pre><code>[
+    {
+        &quot;name&quot;:&quot;David&quot;,
+        &quot;age&quot;:20
+    },
+    {
+        &quot;name&quot;:&quot;Lily&quot;,
+        &quot;age&quot;:22
+    }
+]
+</code></pre><h4 id="Advanced-Mode"><a href="#Advanced-Mode" class="headerlink" title="Advanced Mode"></a>Advanced Mode</h4><p>Note, for the advance mode, you must fill in the “headers for advanced mode”</p>
+<ul>
+<li>If you would like to have “id”,”detail.name” and “detail.sex” included , then fill in id,detail.name,detail.sex</li>
+<li>If you would like to have “detail.name” and “detail.age” included, then fill in detail.name,detail.age</li>
+<li>Click on one and ONLY one cell of the target datasheet</li>
+<li>Click on “Go” button</li>
+</ul>
+<p>Example JSON</p>
+<pre><code>[
+    {
+        &quot;id&quot;:1,
+        &quot;detail&quot;:{
+            &quot;name&quot;:&quot;David&quot;,
+            &quot;age&quot;:10,
+            &quot;sex&quot;:&quot;male&quot;,
+            &quot;contact&quot;:{
+                &quot;cell&quot;:139,
+                &quot;landline&quot;:10
+            }
+        }
+    },
+    {
+        &quot;id&quot;:2,
+        &quot;detail&quot;:{
+            &quot;name&quot;:&quot;May&quot;,
+            &quot;age&quot;:20,
+            &quot;sex&quot;:&quot;female&quot;,
+            &quot;contact&quot;:{
+                &quot;cell&quot;:158,
+                &quot;landline&quot;:20
+            }
+        }
+    },
+    {
+        &quot;id&quot;:3,
+        &quot;detail&quot;:{
+            &quot;name&quot;:&quot;Harry&quot;,
+            &quot;age&quot;:30,
+            &quot;sex&quot;:&quot;male&quot;,
+            &quot;contact&quot;:{
+                &quot;cell&quot;:189,
+                &quot;landline&quot;:10
+            }
+        }
+    }
+]
+</code></pre><h2 id="Privacy"><a href="#Privacy" class="headerlink" title="Privacy"></a>Privacy</h2><p>This Add-In will not collect and/or transmit user information. Baidu Tongji (similar to Google analytics) scripts is added for website analytics.</p>
+<h2 id="Disclaimer"><a href="#Disclaimer" class="headerlink" title="Disclaimer"></a>Disclaimer</h2><p>Backup your documents before using this add-in.</p>
+<h2 id="About"><a href="#About" class="headerlink" title="About"></a>About</h2><p>JSON-to-Excel is an Excel add-in that convert JSON to Excel. It is maintained by he.yang@wtsolutions.cn from WTSolutions.</p>
+
+      
+    </div>
+
+    
+      
+
+    
+
+    <footer class="article-footer">
+      <a data-url="http://blog.wtsolutions.cn/json-to-excel-docs/" data-id="cj8zugjrw0004vo8cuv6n01hj" class="article-share-link">
+        <i class="fa fa-share"></i> Share
+      </a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Add-in/">Add-in</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Docs/">Docs</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/English/">English</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Excel/">Excel</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/JSON/">JSON</a></li></ul>
+
+
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-cad-shx-fonts-download" class="article article-type-post" itemscope itemprop="blogPost">
+
+  <header class="article-header">
+    
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/cad-shx-fonts-download/">CAD SHX fonts Download</a>
+    </h1>
+  
+
+
+  </header>
+
+  <div class="article-meta">
+    <div class="article-datetime">
+  <a href="/cad-shx-fonts-download/" class="article-date"><time datetime="2017-10-20T11:40:52.000Z" itemprop="datePublished">2017-10-20</time></a>
+</div>
+
+    
+    
+
+  </div>
+  <div class="article-inner">
+
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="Download-CAD-SHX-fonts"><a href="#Download-CAD-SHX-fonts" class="headerlink" title="Download CAD SHX fonts"></a>Download CAD SHX fonts</h2><p>For English Visitors:</p>
+<p>Zip file avalible at <a href="http://blog.wtsolutions.cn/archives/142">http://blog.wtsolutions.cn/archives/142</a> </p>
+<p>CAD常用字体库下载</p>
+<p>所有字体打包下载链接 <a href="http://blog.wtsolutions.cn/archives/142">http://blog.wtsolutions.cn/archives/142</a> </p>
+<p>所有字体单个下载链接 <a href="http://blog.wtsolutions.cn/archives/142">http://blog.wtsolutions.cn/archives/142</a> </p>
+<p>下载链接为网盘下载链接，可自行下载压缩包，包内包含字体如下。点击链接，等待5秒钟，点击页面右上方的Skip ad即可下载。</p>
+<p>包括的字体有：</p>
+<p>1hztxt.shx</p>
+<p>@extfont2.shx</p>
+<p>A.SHX</p>
+<p>a.txt</p>
+<p>Aaa.shx</p>
+<p>acad.sys</p>
+<p>AcadEref.shx</p>
+<p>ACE.SHX</p>
+<p>Adbom.shx</p>
+<p>Addwg.shx</p>
+<p>aehalf.shx</p>
+<p>AHZTXT.SHX</p>
+<p>AMDTSymbols.shx</p>
+<p>amgdt.shx</p>
+<p>amgdtans.shx</p>
+<p>ARCH-SS.SHX</p>
+<p>ARCH.SHX</p>
+<p>ARCH2.SHX</p>
+<p>ARCH3.SHX</p>
+<p>ARCHD.SHX</p>
+<p>ARCHF.SHX</p>
+<p>ARCHS.SHX</p>
+<p>ARCHT.SHX</p>
+<p>AU1.SHX</p>
+<p>AVANT.SHX</p>
+<p>AWOLF.SHX</p>
+<p>BBB.SHX</p>
+<p>BIG5.SHX</p>
+<p>bigfont.shx</p>
+<p>bold.shx</p>
+<p>CADHZF.SHX</p>
+<p>CADSLDXJ.SHX</p>
+<p>CADSLFSJ.SHX</p>
+<p>CADSLHTJ.SHX</p>
+<p>CADSLKTJ.SHX</p>
+<p>CADSLSTJ.SHX</p>
+<p>Cass.shx</p>
+<p>CBS_COMPLEX.SHX</p>
+<p>CBS_HZTXT.SHX</p>
+<p>CBS_TXT.SHX</p>
+<p>ccromans.shx</p>
+<p>Cdm.shx</p>
+<p>CDM_NC.shx</p>
+<p>CHIN2.SHX</p>
+<p>CHINA.SHX</p>
+<p>China_ds.shx</p>
+<p>CHINESE.SHX</p>
+<p>chineset.shx</p>
+<p>CIBT<em>__</em>.SHX</p>
+<p>Cobt<em>__</em>.shx</p>
+<p>COMP1.SHX</p>
+<p>complex.shx</p>
+<p>Complex1.shx</p>
+<p>COMPLEX9.SHX</p>
+<p>CTXT.SHX</p>
+<p>Cx.shx</p>
+<p>Cyrillic.shx</p>
+<p>Cyriltlc.shx</p>
+<p>dim.shx</p>
+<p>DXFS.SHX</p>
+<p>DXT.SHX</p>
+<p>DXTCH.SHX</p>
+<p>dytxt1.shx</p>
+<p>dytxt2.shx</p>
+<p>dytxt3.shx</p>
+<p>EURO<em>__</em>.SHX</p>
+<p>EUR<strong>_</strong>.SHX</p>
+<p>extfont.shx</p>
+<p>extfont2.shx</p>
+<p>exthalf2.shx</p>
+<p>extslim2.shx</p>
+<p>FH.SHX</p>
+<p>FHZ.SHX</p>
+<p>font.rsc</p>
+<p>FS.SHX</p>
+<p>FS64F.SHX</p>
+<p>FS64S.SHX</p>
+<p>FSDB_E.SHX</p>
+<p>FSHZ.SHX</p>
+<p>Fssx.shx</p>
+<p>FST.SHX</p>
+<p>FSTCH.SHX</p>
+<p>FSTXT.SHX</p>
+<p>FSZ.SHX</p>
+<p>FSZF.SHX</p>
+<p>g12f13.shx</p>
+<p>g13f12d.shx</p>
+<p>g13f12w.shx</p>
+<p>gbcbig.shx</p>
+<p>gbeitc.shx</p>
+<p>gbenor.shx</p>
+<p>GBHZFS.shx</p>
+<p>GBXWXT.shx</p>
+<p>gdt.shx</p>
+<p>GEDITXT.SHX</p>
+<p>GENISO.shx</p>
+<p>geniso12.shx</p>
+<p>GENLTSHP.shx</p>
+<p>GENPRESE.shx</p>
+<p>gothice.shx</p>
+<p>GOTHICE9.SHX</p>
+<p>GOTHICEN.SHX</p>
+<p>gothicg.shx</p>
+<p>GOTHICG9.SHX</p>
+<p>gothici.shx</p>
+<p>GOTHICI9.SHX</p>
+<p>greekc.shx</p>
+<p>greeks.shx</p>
+<p>GREKCOMP.SHX</p>
+<p>HAND.SHX</p>
+<p>hand1.shx</p>
+<p>Handlttr.shx</p>
+<p>HD.SHX</p>
+<p>hhzfs.shx</p>
+<p>hhzkt.shx</p>
+<p>HLSTD.SHX</p>
+<p>HMDXFS.SHX</p>
+<p>HMDXST.SHX</p>
+<p>HMKXFS.SHX</p>
+<p>HMKXHT.SHX</p>
+<p>HMKXKT.SHX</p>
+<p>HMKXST.SHX</p>
+<p>HPCAD.SHX</p>
+<p>HSHZTXT.SHX</p>
+<p>HT.SHX</p>
+<p>Ht64f.shx</p>
+<p>HT64S.SHX</p>
+<p>HTS.SHX</p>
+<p>Htsx.shx</p>
+<p>HVAC.shx</p>
+<p>HWHZTXT.SHX</p>
+<p>HWROMANC.SHX</p>
+<p>HWROMANS.SHX</p>
+<p>Hz.shx</p>
+<p>Hz1.shx</p>
+<p>HZ129.SHX</p>
+<p>hz2.shx</p>
+<p>HZ36.SHX</p>
+<p>HZA.SHX</p>
+<p>Hzbf.shx</p>
+<p>hzd.shx</p>
+<p>HZDX.SHX</p>
+<p>HZDXF.SHX</p>
+<p>hzf.shx</p>
+<p>HZFS.SHX</p>
+<p>HZHP.SHX</p>
+<p>HZHT.SHX</p>
+<p>HZJS-1.SHX</p>
+<p>HZJS-2.SHX</p>
+<p>HZJS-3.SHX</p>
+<p>HZKT.SHX</p>
+<p>HZKXF.SHX</p>
+<p>HZKXS.SHX</p>
+<p>HZLS.SHX</p>
+<p>Hznum.shx</p>
+<p>HZPMK.SHX</p>
+<p>HZST.SHX</p>
+<p>HZTCH.SHX</p>
+<p>hztxt.shx</p>
+<p>HZTXT0.SHX</p>
+<p>HZTXT1.SHX</p>
+<p>HZTXT2.SHX</p>
+<p>Hztxt3.shx</p>
+<p>HZTXTB.SHX</p>
+<p>HZTXTH.SHX</p>
+<p>HZTXTS.SHX</p>
+<p>hztxt_e.shx</p>
+<p>HZWB.SHX</p>
+<p>HZXK.SHX</p>
+<p>HZXY.SHX</p>
+<p>HZZY.SHX</p>
+<p>HZ_97.SHX</p>
+<p>iges1001.shx</p>
+<p>iges1002.shx</p>
+<p>iges1003.shx</p>
+<p>internat.rsc</p>
+<p>ISO.shx</p>
+<p>ISO9.SHX</p>
+<p>isocp.shx</p>
+<p>isocp2.shx</p>
+<p>isocp3.shx</p>
+<p>isoct.shx</p>
+<p>isoct2.shx</p>
+<p>isoct3.shx</p>
+<p>ITALCOMP.SHX</p>
+<p>ITALIAN.SHX</p>
+<p>italic.shx</p>
+<p>ITALIC8.shx</p>
+<p>ITALIC9.SHX</p>
+<p>italicc.shx</p>
+<p>ITALICC9.SHX</p>
+<p>italict.shx</p>
+<p>ITALICT9.SHX</p>
+<p>ITALTRPX.SHX</p>
+<p>jwg.shx</p>
+<p>jwg1.shx</p>
+<p>K.SHX</p>
+<p>KHZ.SHX</p>
+<p>KHZTXT.SHX</p>
+<p>KT-K.SHX</p>
+<p>KT.SHX</p>
+<p>Kt64f.shx</p>
+<p>KT64S.SHX</p>
+<p>Ktsx.shx</p>
+<p>KTTCH.SHX</p>
+<p>LEGIBLE.shx</p>
+<p>LEGIBLEF.shx</p>
+<p>ltypeshp.shx</p>
+<p>LZSIMP.SHX</p>
+<p>MLtype.shx</p>
+<p>MON.SHX</p>
+<p>monotxt.shx</p>
+<p>MONOTXT8.shx</p>
+<p>MONOTXT9.SHX</p>
+<p>MSIMPLEX.SHX</p>
+<p>MstnFontConfig.xml</p>
+<p>MYROMANS.SHX</p>
+<p>nhztxt.shx</p>
+<p>NUMBER.SHX</p>
+<p>OUTLINE.SHX</p>
+<p>Par<strong>_</strong>.shx</p>
+<p>Pdatxt.shx</p>
+<p>Pdax.shx</p>
+<p>RD.SHX</p>
+<p>ROM.SHX</p>
+<p>romanc.shx</p>
+<p>romanc2.shx</p>
+<p>ROMANC9.SHX</p>
+<p>romand.shx</p>
+<p>ROMAND9.SHX</p>
+<p>romans.shx</p>
+<p>Romans1.shx</p>
+<p>ROMANS9.SHX</p>
+<p>romant.shx</p>
+<p>ROMANT9.SHX</p>
+<p>Romb<em>__</em>.shx</p>
+<p>Romi<em>__</em>.shx</p>
+<p>ROMTXT.SHX</p>
+<p>Rom<strong>_</strong>.shx</p>
+<p>RS.SHX</p>
+<p>Sasbo___.shx</p>
+<p>Sasb<em>__</em>.shx</p>
+<p>SASO<em>__</em>.SHX</p>
+<p>sas<strong>_</strong>.pfb</p>
+<p>Sas<strong>_</strong>.shx</p>
+<p>scriptc.shx</p>
+<p>SCRIPTC9.SHX</p>
+<p>scripts.shx</p>
+<p>SCRIPTS9.SHX</p>
+<p>SCRPCOMP.SHX</p>
+<p>SCRPSIMP.SHX</p>
+<p>SFONT.SHX</p>
+<p>SFS.SHX</p>
+<p>SHZTXT.SHX</p>
+<p>SI.SHX</p>
+<p>Sim.shx</p>
+<p>SIMP1.SHX</p>
+<p>simplex.shx</p>
+<p>Simplex1.shx</p>
+<p>SIMPLEX8.shx</p>
+<p>SIMPLEX9.SHX</p>
+<p>Simtxt.shx</p>
+<p>Sinotxt1.shx</p>
+<p>sjrf.shx</p>
+<p>SL.SHX</p>
+<p>SLCAD.SHX</p>
+<p>SLZM.SHX</p>
+<p>SMFS.SHX</p>
+<p>SMSIM.SHX</p>
+<p>spanrad.shx</p>
+<p>special.shx</p>
+<p>spec_bar.shx</p>
+<p>spec_sl.shx</p>
+<p>sr.shx</p>
+<p>SST.SHX</p>
+<p>ST.SHX</p>
+<p>ST64F.SHX</p>
+<p>ST64S.SHX</p>
+<p>Stdb1.shx</p>
+<p>Stdb2.shx</p>
+<p>STEDI.SHX</p>
+<p>STF.SHX</p>
+<p>STK.SHX</p>
+<p>Stkx.shx</p>
+<p>Stsx.shx</p>
+<p>STTCH.SHX</p>
+<p>Suf<strong>_</strong>.shx</p>
+<p>Superos.shx</p>
+<p>SV300.SHX</p>
+<p>syastro.shx</p>
+<p>SYFS.SHX</p>
+<p>symap.shx</p>
+<p>symath.shx</p>
+<p>SYMBOLM.SHX</p>
+<p>SYMBOLT.SHX</p>
+<p>Symbolx.SHX</p>
+<p>SYMCTEO.SHX</p>
+<p>symeteo.shx</p>
+<p>symusic.shx</p>
+<p>SYSZ.SHX</p>
+<p>Teb<strong>_</strong>.shx</p>
+<p>Tel<strong>_</strong>.shx</p>
+<p>Te<strong>__</strong>.shx</p>
+<p>times.shx</p>
+<p>timesout.shx</p>
+<p>Tjhzd.shx</p>
+<p>TJHZF.SHX</p>
+<p>Tjhzk.shx</p>
+<p>Tjtxt.shx</p>
+<p>TONG.SHX</p>
+<p>TOPHZ1.SHX</p>
+<p>TOPTXT.SHX</p>
+<p>Toptxt1.shx</p>
+<p>TOPTXTF.SHX</p>
+<p>TSCAD.SHX</p>
+<p>TSSDCHN.SHX</p>
+<p>tssdeng.shx</p>
+<p>Tssdeng2.shx</p>
+<p>TU-LTYPE.SHX</p>
+<p>TXT-G.SHX</p>
+<p>txt.shx</p>
+<p>txt0.shx</p>
+<p>Txt1.shx</p>
+<p>Txt12.shx</p>
+<p>txt14.shx</p>
+<p>txt15.shx</p>
+<p>TXT2.SHX</p>
+<p>Txt3.shx</p>
+<p>TXT4.SHX</p>
+<p>TXT9.SHX</p>
+<p>TXTBAK.SHX</p>
+<p>TXTBSCW.SHX</p>
+<p>Txtj.shx</p>
+<p>VERTICAL.SHX</p>
+<p>WB.SHX</p>
+<p>whgdtxt.shx</p>
+<p>whgtxt.shx</p>
+<p>whtgtxt.shx</p>
+<p>whtmtxt.shx</p>
+<p>XC01.SHX</p>
+<p>XC17.SHX</p>
+<p>XC60.SHX</p>
+<p>XC92.SHX</p>
+<p>XC93.SHX</p>
+<p>XIAO.SHX</p>
+<p>XYF.SHX</p>
+<p>YISUN1.SHX</p>
+<p>Ztxt.shx</p>
+<p>ZZSHX.shx</p>
+<p>宋体.shx</p>
+<p>宋体big.shx</p>
+<p>寒鹰中文.shx</p>
+<p>寒鹰西文.shx</p>
+<p>工程汉字.shx</p>
+<p>斜体西文.shx</p>
+<p>正体西文.shx</p>
+<p>结构1.shx</p>
+
+      
+    </div>
+
+    
+      
+
+    
+
+    <footer class="article-footer">
+      <a data-url="http://blog.wtsolutions.cn/cad-shx-fonts-download/" data-id="cj8zugjrp0001vo8caki2x5dd" class="article-share-link">
+        <i class="fa fa-share"></i> Share
+      </a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Chinese/">Chinese</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Download/">Download</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/English/">English</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Fonts/">Fonts</a></li></ul>
+
+
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-advanced-docs-gps" class="article article-type-post" itemscope itemprop="blogPost">
+
+  <header class="article-header">
+    
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/advanced-docs-gps/">照片to谷歌地球高级教程</a>
+    </h1>
+  
+
+
+  </header>
+
+  <div class="article-meta">
+    <div class="article-datetime">
+  <a href="/advanced-docs-gps/" class="article-date"><time datetime="2017-10-20T10:54:45.000Z" itemprop="datePublished">2017-10-20</time></a>
+</div>
+
+    
+    
+
+  </div>
+  <div class="article-inner">
+
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="照片to谷歌地球高级教程"><a href="#照片to谷歌地球高级教程" class="headerlink" title="照片to谷歌地球高级教程"></a>照片to谷歌地球高级教程</h2><blockquote><p>当前高级功能使用说明中的图片以版本v0.5.1为基础，后续本博客文章会不断更新，适用于高于v0.5.1版本的照片to谷歌地球。</p>
+</blockquote>
+<p>更新时间记录：<br>20170409-增加了对隐藏功能的说明。<br><blockquote><p>注意：本说明针对曾多次使用照片to谷歌地球的、对该服务有一定了解的朋友。如果还是第一次使用照片to谷歌地球，请阅读<a href="http://jingyan.baidu.com/article/fcb5aff7574501edab4a716b.html" title="external" target="_blank" rel="external">基础功能教程</a>，然后根据系统提示进行操作，在多次使用了照片to谷歌地球之后，再尝试使用高级功能。如遇到疑问，可以<a href="/contactus/" title="联系我们">联系我们</a>。</p>
+</blockquote></p>
+<h3 id="高级功能介绍"><a href="#高级功能介绍" class="headerlink" title="高级功能介绍"></a>高级功能介绍</h3><h4 id="选择图标"><a href="#选择图标" class="headerlink" title="选择图标"></a>选择图标</h4><p>当前照片to谷歌地球提供了2排多个可选图标，是kmz文件打开后在谷歌地球上显示的一个一个的小图标，默认是采用的WTSolutions的logo，如需显示成其他的图标，只需点击想要选择的图标即可。<br><img src="/advanced-docs-gps/icons.jpg" alt="图标选择" title="图标选择"></p>
+<h4 id="图片横向尺寸"><a href="#图片横向尺寸" class="headerlink" title="图片横向尺寸"></a>图片横向尺寸</h4><p>图片横向尺寸，默认值为600，它表示的是谷歌地球上显示的图标点开后显示的图片的横向尺寸，一般600适用于大部分的电脑屏幕尺寸，当你有很大的屏幕时，你可以适当的增大图片的横向尺寸，即可更大的显示图片。如果你的屏幕较小，则可以适当调小该数值。<br><img src="/advanced-docs-gps/image-size.jpg" alt="图标横向尺寸" title="图标横向尺寸"></p>
+<h4 id="图片所在文件夹"><a href="#图片所在文件夹" class="headerlink" title="图片所在文件夹"></a>图片所在文件夹</h4><p>在默认情况下，kmz文件跟图片放在同一个文件夹中，图片即可在谷歌地球上正确的显示。当有特殊的需求时，可指定文件夹名称。比如：当图片都保存在一个images的文件夹内，而同时kmz文件跟images文件夹在同一个文件夹内，则需要将 images填入本功能的框框内。<br><img src="/advanced-docs-gps/folder.jpg" alt="图片所在文件夹" title="图片所在文件夹"></p>
+<h4 id="导出GPS信息到EXCEL文件"><a href="#导出GPS信息到EXCEL文件" class="headerlink" title="导出GPS信息到EXCEL文件"></a>导出GPS信息到EXCEL文件</h4><p>首先正常使用照片to谷歌地球，去获取kmz文件，当获取kmz文件完毕之后，此处将会多出一个导出到excel文件的按钮，点击这个按钮，就可以生成一个csv文件（可直接用excel打开），csv文件中包含照片的名称、照片的拍摄时间和照片的GPS经纬度信息。<br><img src="/advanced-docs-gps/toexcel.jpg" alt="导出GPS信息到excel文件" title="导出GPS信息到excel文件"></p>
+<h4 id="给不包含gps信息的照片添加gps信息"><a href="#给不包含gps信息的照片添加gps信息" class="headerlink" title="给不包含gps信息的照片添加gps信息"></a>给不包含gps信息的照片添加gps信息</h4><p>有的照片不包含GPS信息，照片to谷歌地球会识别这些照片并且提示手动输入照片的GPS信息，根据系统提示操作输入数据即可。</p>
+<h4 id="隐藏功能：处理超过6张照片"><a href="#隐藏功能：处理超过6张照片" class="headerlink" title="隐藏功能：处理超过6张照片"></a>隐藏功能：处理超过6张照片</h4><p>如果你需要处理的照片的数量少于6张，那么可以直接采用普通功能进行，无需启用高级功能。如果要大于6张，那么就需要启用高级功能了。</p>
+<h3 id="如何获取高级功能"><a href="#如何获取高级功能" class="headerlink" title="如何获取高级功能"></a>如何获取高级功能</h3><p>高级功能的获取有2种方式</p>
+<h4 id="免费获取高级功能的方法"><a href="#免费获取高级功能的方法" class="headerlink" title="免费获取高级功能的方法"></a>免费获取高级功能的方法</h4><ul>
+<li>在照片to谷歌地球页面注册账户</li>
+<li>登录账户</li>
+<li>用户可以通过分享照片to谷歌地球网站页面到朋友圈，获得相应点赞人数，即可获得相应高级功能使用权限，详见登陆后说明。</li>
+</ul>
+<h4 id="付费获取高级功能的方法"><a href="#付费获取高级功能的方法" class="headerlink" title="付费获取高级功能的方法"></a>付费获取高级功能的方法</h4><ul>
+<li>在照片to谷歌地球页面注册账户</li>
+<li>登录账户</li>
+<li>用微信扫一扫下方的购买二维码</li>
+<li>仔细阅读商品详情</li>
+<li>点击购买</li>
+<li>在订单中备注刚刚注册账户的邮箱</li>
+<li>付款</li>
+<li>系统自动完成发货</li>
+<li>刷新照片to谷歌地球页面</li>
+<li>重新登录账户即可</li>
+</ul>
+<img src="/advanced-docs-gps/buy-gps.jpg" alt="购买照片to谷歌地球" title="购买照片to谷歌地球">
+<h2 id="我有疑问"><a href="#我有疑问" class="headerlink" title="我有疑问"></a>我有疑问</h2><p>如遇到疑问，可以<a href="/contactus/" title="联系我们">联系我们</a>。</p>
+
+      
+    </div>
+
+    
+      
+
+    
+
+    <footer class="article-footer">
+      <a data-url="http://blog.wtsolutions.cn/advanced-docs-gps/" data-id="cj8zugjrk0000vo8cwfw1ab22" class="article-share-link">
+        <i class="fa fa-share"></i> Share
+      </a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Chinese/">Chinese</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Docs/">Docs</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/GPS/">GPS</a></li></ul>
+
+
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-contactus" class="article article-type-post" itemscope itemprop="blogPost">
+
+  <header class="article-header">
+    
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/contactus/">联系我们</a>
+    </h1>
+  
+
+
+  </header>
+
+  <div class="article-meta">
+    <div class="article-datetime">
+  <a href="/contactus/" class="article-date"><time datetime="2017-10-20T07:25:54.000Z" itemprop="datePublished">2017-10-20</time></a>
+</div>
+
+    
+    
+
+  </div>
+  <div class="article-inner">
+
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="Contact-Us"><a href="#Contact-Us" class="headerlink" title="Contact Us"></a>Contact Us</h2><p>You could reach us by sending emails to he.yang at wtsolutions.cn</p>
+<h2 id="联系我们"><a href="#联系我们" class="headerlink" title="联系我们"></a>联系我们</h2><p>您可以发邮件到he.yang at wtsolutions.cn 或添加微信号与我们取得联系</p>
+<img src="/contactus/wechat.jpg" alt="微信二维码" title="微信二维码">
+      
+    </div>
+
+    
+      
+
+    
+
+    <footer class="article-footer">
+      <a data-url="http://blog.wtsolutions.cn/contactus/" data-id="cj8zugjru0003vo8clet8c1u4" class="article-share-link">
+        <i class="fa fa-share"></i> Share
+      </a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Chinese/">Chinese</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/ContactUs/">ContactUs</a></li></ul>
+
+
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+
+
+
+
+        </div>
+        <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+          
+  
+
+
+  
+  <div class="sidebar-module">
+    <h4>Tags</h4>
+    <ul class="sidebar-module-list"><li class="sidebar-module-list-item"><a class="sidebar-module-list-link" href="/tags/Add-in/">Add-in</a><span class="sidebar-module-list-count">1</span></li><li class="sidebar-module-list-item"><a class="sidebar-module-list-link" href="/tags/Chinese/">Chinese</a><span class="sidebar-module-list-count">3</span></li><li class="sidebar-module-list-item"><a class="sidebar-module-list-link" href="/tags/ContactUs/">ContactUs</a><span class="sidebar-module-list-count">1</span></li><li class="sidebar-module-list-item"><a class="sidebar-module-list-link" href="/tags/Docs/">Docs</a><span class="sidebar-module-list-count">2</span></li><li class="sidebar-module-list-item"><a class="sidebar-module-list-link" href="/tags/Download/">Download</a><span class="sidebar-module-list-count">1</span></li><li class="sidebar-module-list-item"><a class="sidebar-module-list-link" href="/tags/English/">English</a><span class="sidebar-module-list-count">2</span></li><li class="sidebar-module-list-item"><a class="sidebar-module-list-link" href="/tags/Excel/">Excel</a><span class="sidebar-module-list-count">1</span></li><li class="sidebar-module-list-item"><a class="sidebar-module-list-link" href="/tags/Fonts/">Fonts</a><span class="sidebar-module-list-count">1</span></li><li class="sidebar-module-list-item"><a class="sidebar-module-list-link" href="/tags/GPS/">GPS</a><span class="sidebar-module-list-count">1</span></li><li class="sidebar-module-list-item"><a class="sidebar-module-list-link" href="/tags/JSON/">JSON</a><span class="sidebar-module-list-count">1</span></li></ul>
+  </div>
+
+
+
+  
+  <div class="sidebar-module">
+    <h4>Tag Cloud</h4>
+    <p class="tagcloud">
+      <a href="/tags/Add-in/" style="font-size: 10px;">Add-in</a> <a href="/tags/Chinese/" style="font-size: 20px;">Chinese</a> <a href="/tags/ContactUs/" style="font-size: 10px;">ContactUs</a> <a href="/tags/Docs/" style="font-size: 15px;">Docs</a> <a href="/tags/Download/" style="font-size: 10px;">Download</a> <a href="/tags/English/" style="font-size: 15px;">English</a> <a href="/tags/Excel/" style="font-size: 10px;">Excel</a> <a href="/tags/Fonts/" style="font-size: 10px;">Fonts</a> <a href="/tags/GPS/" style="font-size: 10px;">GPS</a> <a href="/tags/JSON/" style="font-size: 10px;">JSON</a>
+    </p>
+  </div>
+
+
+  
+  <div class="sidebar-module">
+    <h4>Archives</h4>
+    <ul class="sidebar-module-list"><li class="sidebar-module-list-item"><a class="sidebar-module-list-link" href="/archives/2017/10/">十月 2017</a><span class="sidebar-module-list-count">4</span></li></ul>
+  </div>
+
+
+
+  
+  <div class="sidebar-module">
+    <h4>Recents</h4>
+    <ul class="sidebar-module-list">
+      
+        <li>
+          <a href="/json-to-excel-docs/">JSON to Excel Documentation</a>
+        </li>
+      
+        <li>
+          <a href="/cad-shx-fonts-download/">CAD SHX fonts Download</a>
+        </li>
+      
+        <li>
+          <a href="/advanced-docs-gps/">照片to谷歌地球高级教程</a>
+        </li>
+      
+        <li>
+          <a href="/contactus/">联系我们</a>
+        </li>
+      
+    </ul>
+  </div>
+
+
+
+        </div>
+    </div>
+  </div>
+  <footer class="blog-footer">
+  <div class="container">
+    <div id="footer-info" class="inner">
+      &copy; 2017 He Yang<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+
+  
+
+<script src="https://cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script>
+  var _hmt = _hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?00195c4e233349e692de38c1a46162e4";
+    var s = document.getElementsByTagName("script")[0]; 
+    s.parentNode.insertBefore(hm, s);
+  })();
+  </script>
+  
+
+
+<script src="/js/script.js"></script>
+
+</body>
+</html>
